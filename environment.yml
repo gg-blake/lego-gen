@@ -1,0 +1,8 @@
+name: lego-gen-env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch::pytorch
+  - anaconda::pandas
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/lego-gen-env
